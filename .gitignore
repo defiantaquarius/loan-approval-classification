@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Explicitly make sure model files are NEVER ignored
+!model/
+!model/*.pkl
